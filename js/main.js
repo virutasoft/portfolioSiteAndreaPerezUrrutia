@@ -135,3 +135,22 @@ themeButton.addEventListener('click', function () {
         localStorage.setItem('selected-icon', getCurrentIcon());
     });
 // LIGHT DAR THHEME
+
+// SCROLL REVEAL
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    reset: true,
+
+});
+
+sr.reveal('.home__data');
+sr.reveal('.home__handle', {delay: 700});
+sr.reveal('.home__social, .home__scroll', {delay: 1000, origin:'bottom'});
+sr.reveal('.about__data, .skills__container', {delay: 700});
+sr.reveal('.work__container, .services__container', {delay: 500});
+sr.reveal('.testimonial__container', {delay: 650});
+sr.reveal('.contact__container', {delay: 700, origin: 'bottom'});
+// SCROLL REVEAL
