@@ -5,19 +5,21 @@
 :root{
     --header-height:3.5rem;
 
-    /* colors */
-    /* Purple:hsl(250,66%,75%)
-    Blue:hsl(207,90%,72%)
-    Pink:hsl(356,66%,75%)
-    Teal:hsl(174,63%,62%) */
+    /* colors 
+    Purple: hsl(250,66%,75%)
+    Blue: hsl(207,90%,72%)
+    Pink: hsl(356,66%,75%)
+    Teal: hsl(174,63%,62%)
+    green: hsl(104, 100, 42)
+    ferrari yellow hsl(55, 98, 50) */
 
-    --first-hue: 207;
-    --sat: 90%;
-    --lig: 72%;
+    --first-hue: 55;
+    --sat: 98%;
+    --lig: 50%;
     --second-hue: 219;
 
     --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-    --first-color-alt:  hsl(var(--first-hue), var(--sat), 71%); /*-4%*/
+    --first-color-alt:  hsl(var(--first-hue), var(--sat), 46%); /*-4%*/
     --title-color: hsl(var(--second-hue), 15%, 95%);
     --text-color: hsl(var(--second-hue), 8%, 75%);
     --text-color-light: hsl(var(--second-hue), 4%, 55%);
