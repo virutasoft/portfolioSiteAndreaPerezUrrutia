@@ -91,7 +91,7 @@ function scrollActive(){
         }else{
             document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link')
         }
-    })
+    });
 }
 window.addEventListener('scroll', scrollActive)
 // SCROLL SECTION ACTIVE LINK
